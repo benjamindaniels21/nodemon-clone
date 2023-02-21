@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/benjamindaniels21/nodemon-clone/issues"
   },
-  "homepage": "https://github.com/benjamindaniels21/nodemon-clone#readme"
+  "homepage": "https://github.com/benjamindaniels21/nodemon-clone#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
 }
