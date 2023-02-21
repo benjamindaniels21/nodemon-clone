@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/benjamindaniels21/nodemon-clone#readme",
   "dependencies": {
-    "chokidar": "^3.5.3"
+    "chokidar": "^3.5.3",
+    "lodash.debounce": "^4.0.8"
   }
 }
