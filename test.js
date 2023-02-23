@@ -1,1 +1,3 @@
-console.log("hi there! How are you?");
+setInterval(() => {
+  console.log("How are you?");
+}, 1000);
