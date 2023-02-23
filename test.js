@@ -1,3 +1,3 @@
 setInterval(() => {
-  console.log("How are you?");
+  console.log("How am I?");
 }, 1000);

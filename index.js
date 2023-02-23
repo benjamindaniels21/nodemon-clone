@@ -24,7 +24,7 @@ program
       if (proc) {
         proc.kill();
       }
-      console.log(chalk.bold(">>>> Starting process..."));
+      console.log(chalk.green(">>>> Starting process..."));
       proc = spawn("node", [name], { stdio: "inherit" });
     }, 100);
 
