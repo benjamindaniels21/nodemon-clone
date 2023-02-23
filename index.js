@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
-const chokidar = require("chokidar");
-const debounce = require("lodash.debounce");
-const program = require("caporal");
-const fs = require("fs");
-const { spawn } = require("child_process");
-// import chalk from "chalk";
-const chalk = require("chalk");
+import chalk from "chalk";
+import chokidar from "chokidar";
+import debounce from "lodash.debounce";
+import program from "caporal";
+import fs from "fs";
+import { spawn } from "child_process";
 
 program
   .version("0.0.1")
